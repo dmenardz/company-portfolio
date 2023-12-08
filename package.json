@@ -1,0 +1,26 @@
+{
+  "name": "company-portfolio",
+  "version": "1.0.0",
+  "description": "Building Company Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Company",
+    "Portfolio",
+    "Sass",
+    "Bootstrsp5"
+  ],
+  "author": "Danny Gen Menardo",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "autoprefixer": "^10.4.16",
+    "bootstrap": "^5.2.3",
+    "postcss-cli": "^11.0.0"
+  }
+}
