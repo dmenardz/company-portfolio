@@ -1,0 +1,44 @@
+@use '../custom' as *;
+
+.display-2{
+    margin: 1rem;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+    &--intro{
+        display: inline-block;
+        font-weight: 700;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    &--description{
+        font-size: 1rem;
+        display: block;
+        margin-top: 1.2rem;
+        line-height: 1.5;
+        text-transform: none;
+        @include media-breakpoint-up(lg){
+            font-size: 1.4rem;
+            display: inline-block;
+        }
+    }
+}
+
+// Company heading line
+.heading-line::before{
+    content: "";
+    width: 20rem;
+    margin: 0 auto;
+    height: 0.1rem;
+    display: block;
+    background-color: $primary;
+}
+.heading-line::after{
+    content: "";
+    width: 2rem;
+    padding-top: 0.5;
+    height: 0.5rem;
+    display: block;
+    margin: 0 auto;margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: $primary;
+}

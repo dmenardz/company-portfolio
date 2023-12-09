@@ -1,0 +1,4 @@
+primary #19A7CE
+secondary #146C94
+tertiary # AFD3E2
+fourtiary #F6F1F1
