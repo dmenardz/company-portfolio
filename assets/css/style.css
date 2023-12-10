@@ -10810,6 +10810,31 @@ textarea.form-control-lg {
   background-color: #618264;
 }
 
+.display-3 {
+  font-family: "Nunito", sans-serif;
+}
+.display-3--title {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  background-image: linear-gradient(to right, #618264, #79AC78);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
+}
+
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 100%;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(97, 130, 100, 0.95), rgba(121, 172, 120, 0.95));
 }
@@ -10874,6 +10899,43 @@ textarea.form-control-lg {
   height: 100%;
 }
 .companies__logo-box img:hover {
+  filter: grayscale(100);
+}
+
+.services {
+  position: relative;
+  padding: 1rem 0;
+}
+.services__content {
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+.services__content p {
+  font-size: 0.8rem;
+}
+@media (min-width: 992px) {
+  .services__content p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .services__content {
+    margin-top: 5rem;
+  }
+}
+.services__content .icon {
+  font-size: 1.5rem;
+  color: #618264;
+}
+@media (min-width: 992px) {
+  .services__content .icon {
+    font-size: 3.5rem;
+  }
+}
+.services__img {
+  max-width: 100%;
+}
+.services__img:hover {
   filter: grayscale(100);
 }
 
