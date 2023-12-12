@@ -10863,6 +10863,10 @@ textarea.form-control-lg {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.intros a h4 {
+  text-transform: uppercase;
+  display: block;
+}
 .intros a span i {
   font-size: 6rem;
   color: #79AC78;
@@ -10916,11 +10920,6 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .services__content p {
     font-size: 1rem;
-  }
-}
-@media (min-width: 992px) {
-  .services__content {
-    margin-top: 5rem;
   }
 }
 .services__content .icon {
@@ -10983,6 +10982,75 @@ textarea.form-control-lg {
 .testimonials__name p {
   padding-bottom: 2rem;
   text-transform: capitalize;
+}
+
+.portfolio {
+  padding: 4rem 0;
+}
+.portfolio button {
+  text-transform: capitalize;
+}
+.portfolio button:hover {
+  color: #fff;
+}
+.portfolio button.active {
+  color: #fff;
+}
+
+.column {
+  float: left;
+  display: none;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.portfolio-box {
+  position: relative;
+  width: 100%;
+  height: 18.5rem;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
+  border-bottom: 0.5rem solid #B0D9B1;
+}
+.portfolio-box img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio-box .portfolio-info {
+  background-color: rgba(97, 130, 100, 0.75);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.portfolio-box .portfolio-info .caption {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.portfolio-box .portfolio-info .caption h4 {
+  text-transform: uppercase;
+  display: block;
+}
+.portfolio-box .portfolio-info .caption h4 {
+  text-transform: uppercase;
+}
+.portfolio-box:hover img {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+.portfolio-box:hover .portfolio-info {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease;
 }
 
 /*# sourceMappingURL=style.css.map */
