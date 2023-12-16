@@ -10835,6 +10835,10 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.gradient {
+  background: linear-gradient(to right, rgba(97, 130, 100, 0.95), rgba(121, 172, 120, 0.95));
+}
+
 .menu {
   background: linear-gradient(to right, rgba(97, 130, 100, 0.95), rgba(121, 172, 120, 0.95));
 }
@@ -11051,6 +11055,30 @@ textarea.form-control-lg {
   opacity: 1;
   visibility: visible;
   transition: all 0.5s ease;
+}
+
+.contact {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  padding-left: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+.cta-info__list li:before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f00c";
+  font-weight: 600;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
